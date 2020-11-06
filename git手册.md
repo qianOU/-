@@ -137,35 +137,35 @@ git rebase --continue
 
 > ## SSH
 >
-> 1 .查看是否配置过密钥
+> ##### 1 .查看是否配置过密钥
 >
 > ```
 > cd ~/.ssh #如果显示没有文件，则需要重新创立
 > ```
 >
-> 进行创建（之后不需要输入，一直enter即可）
+> ##### 进行创建（之后不需要输入，一直enter即可）
 >
 > ```
 > ssh-keygen -t rsa -C "youremail@example.com"
 > ```
 >
-> 查看你生成的公钥
+> ##### 查看你生成的公钥
 >
 > ```
 > cat ~/.ssh/id_rsa.pub
 > ```
 >
-> 将公钥输入到github中
+> ##### 将公钥输入到github中
 >
 > ![](D:\保存位置\markdwon笔记图片保存内容\github_ssh.jpg)
 >
-> 验证key是否和github产生联系/（yes）
+> ##### 验证key是否和github产生联系/（yes）
 >
 > ```
 > ssh -T git@github.com
 > ```
 >
-> 克隆代码到本地（选择**SSH**链接）
+> ##### 克隆代码到本地（选择**SSH**链接）
 >
 > ```
 > git clone git@gitee.com:cjty/nodejs.git
@@ -194,18 +194,18 @@ git push -u orign dev
 
 ## 用户名修改
 
-1. 修改密码
+1. ##### 修改密码
 
     git config --global credential.helper store (输入这个命令后,以后只要在输入一次用户名密码)
 
-2. 查看用户名和邮箱地址：
+2. ##### 查看用户名和邮箱地址：
 
     ```
     $ git config user.name
     $ git config user.email
     ```
 
-3. 修改用户名和邮箱地址：
+3. ##### 修改用户名和邮箱地址：
 
     ```
     $ git config --global user.name "username"
