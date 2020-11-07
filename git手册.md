@@ -212,3 +212,8 @@ git push -u orign dev
     $ git config --global user.email "email"
     ```
 
+### Git报错
+
+### 1. Another git process seems to be running
+
+解决方法：进入项目文件夹下的 .git文件中（显示隐藏文件夹或rm .git/index.lock）删除**index.lock**文件即可。
