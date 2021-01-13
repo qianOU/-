@@ -1,0 +1,13 @@
+截图： win+shift+s
+打开微信： win+shift+z
+
+打开后台应用切换窗口：Alt + Tab (长按Alt键，逐次按Tab键，即可切换后台应用)
+打开新建桌面按钮： Win+Tab
+
+
+####自定义快捷键
+在桌面上右击应用--选择属性 ---在快捷方式处录入自定义的快捷键
+本台电脑中
+ctrl + Shift + Z : 打开Edge浏览器
+ctrl + Shift + X: 打开google浏览器
+ctrl + Alt + W : 打开微信
